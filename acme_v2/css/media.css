@@ -70,9 +70,6 @@
   }
   .block_1 {
     padding-top: 120px;
-    padding-bottom: 300px;
-    background: #212121 url("../img/block_1.jpg") no-repeat bottom right;
-    background-size: 750px;
   }
   .block_1 .block_left h2 {
     font-size: 20px;
@@ -265,5 +262,13 @@
   }
   .block_content {
     background-size: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .block_1 {
+    padding-bottom: 300px;
+    background: #212121 url("../img/block_1.jpg") no-repeat bottom right;
+    background-size: 750px;
   }
 }
