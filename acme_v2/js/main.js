@@ -15,6 +15,17 @@ $('.slick_slide').slick({
   prevArrow: '<div class="prev"></div>',
 	nextArrow: '<div class="next"></div>',
 });
+
+$('.slick_slide_2').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: '<div class="prev"></div>',
+  nextArrow: '<div class="next"></div>',
+});
+
 }
 
 var wow = new WOW(

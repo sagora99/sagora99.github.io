@@ -133,6 +133,9 @@
   }
   .block_5 .cont_row .row {
     width: 100%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .block_5 {
     padding: 50px 0;
@@ -143,11 +146,6 @@
   }
   .block_5 .cont_row .row_title h3 {
     font-size: 28px;
-  }
-  .block_5 .cont_row .row {
-    border: 0;
-    padding-left: 0;
-    padding-right: 0;
   }
   .block_5 .cont_row .row h4 {
     margin-bottom: 15px;
@@ -262,6 +260,9 @@
   }
   .block_content {
     background-size: 70%;
+  }
+  .block_5 .cont_row.tst {
+    margin-bottom: 0;
   }
 }
 

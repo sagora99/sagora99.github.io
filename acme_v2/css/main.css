@@ -450,6 +450,11 @@ header .head_right a.sb_login:hover {
   flex-wrap: wrap;
 }
 
+.block_5 .cont_row.tst {
+  justify-content: flex-start;
+  margin-bottom: -270px;
+}
+
 .block_5 .cont_row .row {
   display: block;
   width: 33%;

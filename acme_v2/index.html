@@ -116,13 +116,18 @@
 	<div class="block_5">
 		<div class="size">
 
-			<div class="cont_row">
+			<div class="cont_row tst">
 				<div class="row_title wow bounceInLeft">
 					<div class="line"><div class="cube"></div></div>
 					<h3>FEATURES</h3>
 					<h2>What We Do Best</h2>
 				</div>
+			</div>
 
+			<div class="cont_row slick_slide_2">
+				
+				<div class="row wow bounceInUp hide" data-wow-duration="0.5s" style="border: none; background: none;">
+				</div>
 				<div class="row wow bounceInUp" data-wow-duration="0.5s">
 					<img src="img/block_5_img_1.svg" alt="">
 					<h4>Rental Reporting</h4>
@@ -254,7 +259,10 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/main.js"></script>
-	
+	<script>
+		var ind = 1;    
+		$('.slick_slide_2').slick('slickRemove', ind-1);
+	</script>
 
 </body>
 </html>
