@@ -1,23 +1,24 @@
+var b = document.getElementsByTagName("BODY")[0];
 
+b.addEventListener("mousemove", function (event) {
+	parallaxed(event);
 
-$(".quest_title").click(function() {
-	$(this).parent().toggleClass("active");
-	$(this).next('.quest_txt').slideToggle();
 });
 
-$(".filter_button").click(function() {
-	$(this).toggleClass("active");
-	$(this).next('.filter').slideToggle();
-});
+function parallaxed(e) {
+	var amountMovedX = (e.clientX * -0.3 / 21);
+	var amountMovedY = (e.clientY * -0.3 / 21);
+	var x = document.getElementsByClassName("parallaxed");
+	var i;
+	for (i = 0; i < x.length; i++) {
+		x[i].style.transform = 'translate(' + amountMovedX + 'px,' + amountMovedY + 'px)'
+	}
 
-$("#toggle").click(function() {
-	$(this).toggleClass("on");
-	$(this).parents('header').toggleClass("active");
-	$(".menu ul").slideToggle();
-});
-
-$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
-$(this)
-  .addClass('active').siblings().removeClass('active')
-  .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
-});
+	var amountMovedX2 = (e.clientX * -0.3 / 12);
+	var amountMovedY2 = (e.clientY * -0.3 / 12);
+	var x2 = document.getElementsByClassName("parallaxed_2");
+	var i;
+	for (i = 0; i < x2.length; i++) {
+		x2[i].style.transform = 'translate(' + amountMovedX2 + 'px,' + amountMovedY2 + 'px)'
+	}
+}

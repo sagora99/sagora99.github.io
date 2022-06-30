@@ -1,668 +1,209 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
 	<title>Document</title>
 </head>
+
 <body>
-	<header>
+	<header class="head">
 		<div class="size">
 			<a href="#" class="logo">
-				<img src="img/logo.png" alt="">
+				<img src="images/logo.svg" alt="Logo">
+				<span>техніка на службі людині</span>
 			</a>
-			<ul class="menu">
-				<li class="active"><a href="#">Home page</a></li>
-				<li><a href="#">Second page</a></li>
-				<li><a href="#">Third page</a></li>
-				<li><a href="#">Fourth page</a></li>
-			</ul>
+
+			<nav class="head_catalog">
+				<a href="#" class="head_catalog_link">КАТАЛОГ ПРОДУКЦІЇ</a>
+				<div class="head_catalog_wrap">
+
+				</div>
+			</nav>
 
 			<div class="head_right">
-				<a href="#" class="sb_add"><span>Add provider</span></a>
-				<a href="#" class="sb_login"><span>Sign up / Log in</span></a>
+				<nav class="head_menu">
+					<ul class="head_menu_wrap">
+						<li class="first_lvl">
+							<a href="#">ПРО NEOR</a>
+						</li>
+						<li>
+							<a href="#">БЛОГ</a>
+						</li>
+						<li class="li_bold first_lvl">
+							<a href="#">ПІДТРИМКА</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="head_phone">
+					<a href="#" class="head_phone_link">(098) 203-74-09</a>
+					<div class="head_phone_wrap">
+
+					</div>
+				</div>
+
+				<div class="head_cart">
+					<span>1</span>
+				</div>
+
+				<div class="head_lang">
+					<span>UA</span>
+				</div>
 			</div>
 
-			<div id="toggle">
-				<div class="one"></div>
-				<div class="two"></div>
-				<div class="three"></div>
-			</div>
 
-			<div class="clear"></div>
 		</div>
 	</header>
+	<main class="main">
+		<section class="slider">
 
-	<div class="block_main">
-		<div class="size">
-			<div class="block_main_left">
-				<div class="filter_button">Show filters</div>
-				<div class="filter">
-					<div class="filter_left">
-						<h3>Supported Exchanges</h3>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Binance</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Bittrex</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Bitmex</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Kucoin</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Kraken</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>ByBIT</span>
-						</label>
+
+			<div class="slider_wrap">
+				<div class="size">
+					<div class="item_row">
+						<div class="item_cont_1" id="scene">
+
+							<div class="item_1_row_1 parallaxed">
+								<img src="/images/slider_item_cont_1_1.png" alt="" class="parallaxed">
+								<div class="name">
+									3D-принтер
+									<span>NEOR Basic</span>
+								</div>
+							</div>
+
+							<div class="item_1_row_2 parallaxed_2">
+								<img src="/images/slider_item_cont_1_2.png" alt="" class="parallaxed_2">
+								<div class="name">
+									3D-принтер
+									<span>NEOR Basic</span>
+								</div>
+							</div>
+
+							<div class="item_1_row_3 parallaxed">
+								<img src="/images/slider_item_cont_1_3.png" alt="" class="parallaxed">
+								<div class="name">
+									3D-принтер
+									<span>NEOR Professional</span>
+								</div>
+							</div>
+
+						</div> <!-- end .item_cont_1 -->
+
+						<h1>3D-принтери</h1>
+						<div class="cont_row">
+
+							<div class="row">
+								<div class="row_wrap">
+									Для шкільних STEM-проектів
+								</div>
+							</div>
+							<div class="row">
+								<div class="row_wrap">
+									Для досвідчених користувачів
+								</div>
+							</div>
+							<div class="row">
+								<div class="row_wrap">
+									З україномовним ПЗ
+								</div>
+							</div>
+							<div class="row">
+								<div class="row_wrap">
+									Доступ до фірмової бібліотеки моделей
+								</div>
+							</div>
+
+						</div>
+
+						<a href="#" class="sb_view">ПЕРЕГЛЯНУТИ ПРОПОЗИЦІЮ</a>
+					</div>
+				</div> <!-- end .size -->
+			</div>
+
+
+		</section>
+		<section class="category">
+			<div class="size">
+
+				<div class="cont_row">
+
+					<div class="row">
+
+						<div class="row_left">
+							<div class="cube">
+								<span>01</span>
+								<img src="/images/cat_img_1.svg" alt="">
+							</div>
+						</div>
+
+						<div class="row_right">
+							Заощаджуй завдяки <br>
+							<span>швидкій безкоштовній доставці</span>
+						</div>
 					</div>
 
-					<hr>
+					<div class="row">
 
-					<div class="filter_right">
+						<div class="row_left">
+							<div class="cube">
+								<span>02</span>
+								<img src="/images/cat_img_2.svg" alt="">
+							</div>
+						</div>
 
-						<h3>Status</h3>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Approved</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Scammers</span>
-						</label>
-						<label class="custom-checkbox">
-							<input type="checkbox" value="">
-							<span>Bitmex</span>
-						</label>
+						<div class="row_right">
+							Заощаджуй завдяки <br>
+							<span>швидкій безкоштовній доставці</span>
+						</div>
 					</div>
 
-					<div class="clear"></div>
+					<div class="row">
 
-					<a href="#" class="filter_clear">Clear Filters</a>
-					<a href="#" class="filter_set">Set Filters</a>
-					<div class="clear"></div>
-				</div>
-			</div>
+						<div class="row_left">
+							<div class="cube">
+								<span>03</span>
+								<img src="/images/cat_img_3.svg" alt="">
+							</div>
+						</div>
 
-			<div class="block_main_right">
-
-				<div class="home_table">
-					<div class="home_table_head">
-						<div class="item">Trader / status</div>
-						<div class="item">Profit 30 days  </div>
-						<div class="item">Profit 180 days  </div>
-						<div class="item">Term</div>
-						<div class="item">Price</div>
-						<div class="item">Analitics</div>
-						<div class="item">Exchanges</div>
-						<div class="item">Reviews</div>
+						<div class="row_right">
+							Заощаджуй завдяки <br>
+							<span>швидкій безкоштовній доставці</span>
+						</div>
 					</div>
 
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
+					<div class="row">
 
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
+						<div class="row_left">
+							<div class="cube">
+								<span>04</span>
+								<img src="/images/cat_img_4.svg" alt="">
+							</div>
+						</div>
 
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
-					<a class="home_table_row" href="#">
-						<span class="item item_1">
-							<img src="img/ava_1.png" alt="">
-							<span class="item_info">
-								<span class="item_name">proTrader</span>
-								<span class="approved">approved</span>
-							</span>
-						</span>
-						<span class="item item_2">
-							<img src="img/arrow_green.png" alt=""> +41%
-						</span>
-						<span class="item item_3">
-							<img src="img/arrow_green.png" alt=""> +141%
-						</span>
-						<span class="item item_4">
-							short/mid/long
-						</span>
-						<span class="item item_5">
-							<span class="item_money">
-								<b>100 USD</b> month
-							</span>
-							<span class="item_money">
-								<b>250 USD</b> month
-							</span>
-						</span>
-						<span class="item item_6">
-							Neural Network
-						</span>
-						<span class="item item_7">
-							Binance<br>
-							Bittrex<br>
-							ByBIT
-						</span>
-						<span class="item item_8">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_on.png" alt="">
-							<img src="img/star_off.png" alt="">
-							<span class="item_link">12</span>
-						</span>
-
-					</a>
+						<div class="row_right">
+							Заощаджуй завдяки <br>
+							<span>швидкій безкоштовній доставці</span>
+						</div>
+					</div>
 
 				</div>
 
 			</div>
-
-
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="block_content">
+		</section>
+	</main>
+	<footer class="foot">
 		<div class="size">
-			<h2>Lorem ipsum dolor sit amet</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<img src="img/images.jpg" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			
-			<ul>
-				<li>Lorem ipsum dolor</li>
-				<li>Lorem ipsum dolor</li>
-				<li>Lorem ipsum dolor</li>
-				<li>Lorem ipsum dolor</li>
-			</ul>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-		</div>
-	</div>
 
-	<div class="block_quest">
-		<div class="size">
-			<h2>Frequently Asked Questions</h2>
-
-			<div class="cont_qurest">
-				<div class="quest_title">Lorem ipsum dolor sit amet</div>
-				<div class="quest_txt">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</div>
-			</div>
-			<div class="cont_qurest">
-				<div class="quest_title">Lorem ipsum dolor sit amet</div>
-				<div class="quest_txt">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</div>
-			</div>
-			<div class="cont_qurest">
-				<div class="quest_title">Lorem ipsum dolor sit amet</div>
-				<div class="quest_txt">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</div>
-			</div>
-			<div class="cont_qurest">
-				<div class="quest_title">Lorem ipsum dolor sit amet</div>
-				<div class="quest_txt">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</div>
-			</div>
-			<div class="cont_qurest">
-				<div class="quest_title">Lorem ipsum dolor sit amet</div>
-				<div class="quest_txt">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<footer>
-		<div class="size">
-			<div class="footer_head">
-				<a href="#" class="logo">
-					<img src="img/logo_footer.png" alt="">
-				</a>
-
-				<ul class="foot_link">
-					<li><a href="#">Home page</a></li>
-					<li><a href="#">Second page</a></li>
-					<li><a href="#">Third page</a></li>
-					<li><a href="#">Fourth page</a></li>
-				</ul>
-
-				<ul class="foot_link">
-					<li><a href="#">Buy bitcoin</a></li>
-					<li><a href="#">Buy Bitcoin with PayPal</a></li>
-					<li><a href="#">Buy Bitcoin with credit card</a></li>
-					<li><a href="#">Buy cryptocurrency</a></li>
-				</ul>
-
-				<ul class="foot_link">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Our Mission</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Calculation rules</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
-
-				<div class="foot_right">
-					<a href="#" class="telegram"><img src="img/tg_ico.png" alt=""></a>
-					<div class="clear"></div>
-					<a href="#">Cookies Policy</a>
-					<a href="#">Privacy Policy</a>
-					<a href="#">Terms of Use</a>
-				</div>
-
-				<div class="clear"></div>
-			</div>
-
-			<div class="footer_foot">
-				<p>All contents on this site is for informational purposes only and does not constitute financial advice. Consult relevant financial professionals in your country of residence to get personalised advice before you make any trading or investing decisions. safetrading.today may receive compensation from the brands or services mentioned on this website. Risk Warning: Trading CFDs on leverage involves significant risk of loss to your capital.</p>
-
-				<div class="copy">Copyright © 2021</div>
-			</div>
 		</div>
 	</footer>
 
-	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/main.js"></script>
-
 </body>
+
 </html>

@@ -1,0 +1,402 @@
+*
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+body
+	font-family: 'Gilroy'
+	font-size: 16px
+
+a
+	color: #000
+
+.size
+	width: 100%
+	max-width: 1380px
+	margin: 0 auto
+	&::after
+		clear: both
+		display: block
+		content: ''
+header.head
+	display: block
+	padding: 19px 0
+	background: #FFFFFF
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07)
+	position: relative
+	z-index: 9
+	a.logo
+		display: block
+		float: left
+		text-decoration: none
+		span
+			display: block
+			font-weight: normal
+			color: #000
+			font-size: 14px
+	.head_catalog
+		display: block
+		float: left
+		a.head_catalog_link
+			display: block
+			padding: 25px 0
+			font-size: 16px
+			text-decoration: none
+			padding-left: 34px
+			font-weight: 700
+			background: url('../images/head_catalog.svg') no-repeat left center
+			margin-left: 70px
+	.head_right
+		float: right
+		.head_menu
+			display: block
+			float: left
+			ul.head_menu_wrap
+				list-style: none
+				li
+					display: block
+					float: left
+					margin: 0 20px
+					a
+						display: block
+						text-decoration: none
+						padding: 25px 0
+					&.first_lvl
+						a
+							&::after
+								display: inline-block
+								content: ''
+								background: url('/images/head_menu_arrow.svg') no-repeat center
+								width: 9px
+								height: 9px
+								margin-left: 10px
+								position: relative
+								top: -1px
+						&.li_bold
+							a
+								font-weight: 700
+								&::after
+									background: url('/images/head_menu_arrow_b.svg') no-repeat center
+									margin-left: 10px
+		.head_phone
+			display: block
+			float: left
+			a.head_phone_link
+				display: block
+				padding: 25px 0
+				font-size: 16px
+				text-decoration: none
+				padding-left: 34px
+				font-weight: 700
+				background: url('../images/head_phone.svg') no-repeat left center
+				margin-left: 70px
+				&::after
+					display: inline-block
+					content: ''
+					background: url('/images/head_menu_arrow_b.svg') no-repeat center
+					width: 9px
+					height: 9px
+					margin-left: 10px
+					position: relative
+					top: -1px
+		.head_cart
+			display: block
+			float: left
+			width: 33px
+			height: 33px
+			background: url('/images/head_basket.svg') no-repeat center
+			margin: 17px 60px
+			position: relative
+			span
+				display: block
+				position: absolute
+				width: 13px
+				height: 13px
+				background: #D2770D
+				border-radius: 13px
+				line-height: 13px
+				text-align: center
+				font-weight: 700
+				font-size: 8px
+				color: #fff
+				top: -5x
+				right: -5px
+		.head_lang
+			display: block
+			float: left
+			padding: 10px
+			background: #F1F1F1
+			border-radius: 50px
+			margin: 14px 0
+			cursor: pointer
+			span
+				font-weight: 700
+				&::after
+					display: inline-block
+					content: ''
+					background: url('/images/head_menu_arrow.svg') no-repeat center
+					width: 9px
+					height: 9px
+					margin-left: 10px
+					position: relative
+					top: -1px
+
+main.main
+	display: block
+
+section.slider
+	display: block
+	background: #EBEBEB
+	padding-bottom: 60px
+	.slider_wrap
+		display: block
+		.item_row
+			display: block
+			.item_cont_1
+				display: block
+				height: 477px
+				position: relative
+				.item_1_row_1
+					display: block
+					position: absolute
+					bottom: -31px
+					left: 0px
+					&::before
+						content: ''
+						display: block
+						width: 339px
+						height: 328px
+						position: absolute
+						background: url('/images/slider_item_cont_1_1_before.svg') no-repeat center
+						top: -101px
+						left: 0
+					img
+						display: block
+						position: relative
+					.name
+						position: absolute
+						width: 196px
+						height: 58px
+						background: rgba(255, 255, 255, 0.67)
+						backdrop-filter: blur(32px)
+						border-radius: 16px
+						border: 1px solid #D2770D
+						left: -97px
+						top: -28px
+						padding: 8px 26px
+						font-size: 18px
+						font-weight: 500
+						span
+							color: #D2770D
+				.item_1_row_2
+					display: block
+					position: absolute
+					bottom: -2px
+					left: calc(50% - 167px)
+					&::before
+						content: ''
+						display: block
+						width: 396px
+						height: 390px
+						position: absolute
+						background: url('/images/slider_item_cont_1_2_before.svg') no-repeat center
+						top: -56px
+						left: -22px
+					img
+						display: block
+						position: relative
+					.name
+						position: absolute
+						width: 170px
+						height: 73px
+						background: rgba(255, 255, 255, 0.67)
+						backdrop-filter: blur(32px)
+						border-radius: 16px
+						border: 1px solid #D2770D
+						right: -66px
+						top: -1px
+						padding: 15px 32px
+						font-size: 18px
+						font-weight: 500
+						span
+							color: #D2770D
+				.item_1_row_3
+					display: block
+					position: absolute
+					bottom: -44px
+					right: 19px
+					&::before
+						content: ''
+						display: block
+						width: 339px
+						height: 328px
+						position: absolute
+						background: url('/images/slider_item_cont_1_3_before.svg') no-repeat center
+						top: -36px
+						left: 81px
+					img
+						display: block
+						position: relative
+					.name
+						position: absolute
+						width: 224px
+						height: 73px
+						background: rgba(255, 255, 255, 0.67)
+						backdrop-filter: blur(32px)
+						border-radius: 16px
+						border: 1px solid #D2770D
+						right: -94px
+						bottom: 27px
+						padding: 15px 32px
+						font-size: 18px
+						font-weight: 500
+						span
+							color: #D2770D
+			h1
+				text-align: center
+				text-transform: uppercase
+				color: #353535
+				font-size: 64px
+			.cont_row
+				display: flex
+				justify-content: space-between
+				margin-top: 34px
+				.row
+					width: 322px
+					height: 50px
+					position: relative
+					&:nth-child(1)
+						&::before
+							display: block
+							content: ''
+							width: 37px
+							height: 37px
+							background: #D2770D
+							border-radius: 100px
+							position: absolute
+							left: 38px
+							top: -12px
+					&:nth-child(2)
+						&::before
+							display: block
+							content: ''
+							width: 26px
+							height: 26px
+							background: #D2770D
+							border-radius: 100px
+							position: absolute
+							left: 65px
+							bottom: -14px
+					&:nth-child(3)
+						&::before
+							display: block
+							content: ''
+							width: 26px
+							height: 26px
+							background: #D2770D
+							border-radius: 100px
+							position: absolute
+							right: 22px
+							top: -12px
+					&:nth-child(4)
+						&::before
+							display: block
+							content: ''
+							width: 57px
+							height: 57px
+							background: #D2770D
+							border-radius: 100px
+							position: absolute
+							right: -34px
+							bottom: -20px
+					.row_wrap
+						display: block
+						position: relative
+						text-align: center
+						line-height: 50px
+						background: rgba(255, 255, 255, 0.67)
+						backdrop-filter: blur(32px)
+						border-radius: 25px
+						font-size: 14px
+						font-weight: 600
+			a.sb_view
+				display: block
+				width: 283px
+				height: 50px
+				line-height: 50px
+				text-align: center
+				background: linear-gradient(93.04deg, #C35801 -52.5%, #F4BF28 91.95%)
+				box-shadow: 0px 14px 32px rgba(243, 187, 39, 0.46)
+				border-radius: 25px
+				margin: 0 auto
+				text-decoration: none
+				margin-top: 54px
+				font-weight: 700
+				font-size: 14px
+				color: #fff
+				transition: background .3s
+				&:hover
+					background: linear-gradient(93.04deg, #C35801 -52.5%, #C35801 91.95%)
+section.category
+	display: block
+	padding: 90px 0
+	.cont_row
+		display: flex
+		justify-content: space-between
+		.row
+			display: flex
+			justify-content: space-between
+			width: 320px
+			.row_left
+				display: block
+				width: 82px
+				height: 82px
+				position: relative
+				&::before
+					display: block
+					position: absolute
+					content: ''
+					width: 87px
+					height: 80px
+					top: -14px
+					right: -15px
+					background: url('/images/cat_img_before.svg') no-repeat center
+					transition: top .3s, right .3s
+				.cube
+					background: rgba(255, 255, 255, 0.42)
+					backdrop-filter: blur(23px)
+					transform: rotate(-0.19deg)
+					position: relative
+					width: 100%
+					height: 100%
+					padding-top: 1px
+					img
+						display: block
+						margin: 0 auto
+						margin-top: 20px
+					span
+						display: block
+						position: absolute
+						right: -28px
+						top: -22px
+						width: 32px
+						height: 32px
+						background: #D2770D
+						box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17)
+						text-align: center
+						line-height: 32px
+						font-weight: 600
+						color: #fff
+			.row_right
+				display: block
+				width: 185px
+				font-size: 14px
+				font-weight: 500
+				line-height: 19px
+				span
+					font-weight: 700
+					color: #D2770D
+			&:hover
+				.row_left
+					&::before
+						right: -5px
+						top: -5px
